@@ -3,7 +3,7 @@ $(document).ready(function(){
     
     /*Scroll event handler*/
     
-    $(window).on('scroll', function(e){
+    $(window).bind('scroll', function(e){
         parallaxScroll();
         redrawDotNav();
     });
